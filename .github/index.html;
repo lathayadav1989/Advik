@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advik M Yadav - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Advik M Yadav</div>
+    <button class="hamburger" id="hamburger">&#9776;</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <img src="portrait-placeholder.jpg" alt="Advik M Yadav" class="portrait" />
+      <h1>Hello, I'm Advik M Yadav</h1>
+      <p>This is a short bio about me. I'm passionate about learning and growing my skills every day.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">Abacus</div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact</h2>
+    <p>You can reach me at <a href="mailto:chethusavi3@gmail.com">chethusavi3@gmail.com</a></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
